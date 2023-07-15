@@ -10,9 +10,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "build": "tsc",
-    "gen:typing": "dts-gen -m index",
-    "build:types": "dts-bundle --name my-component-sdk --main index.d.ts --out dist/my-component-sdk.d.ts"
+    "build": "tsc"
   },
   "dependencies": {
     "react": "18.2.0",
