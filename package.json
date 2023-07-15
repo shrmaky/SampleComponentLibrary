@@ -11,6 +11,7 @@
     "start": "react-native start",
     "test": "jest",
     "build": "tsc",
+    "gen:typing": "dts-gen -m index",
     "build:types": "dts-bundle --name my-component-sdk --main index.d.ts --out dist/my-component-sdk.d.ts"
   },
   "dependencies": {
@@ -30,6 +31,7 @@
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.2.1",
     "dts-bundle": "^0.7.3",
+    "dts-gen": "^0.6.1",
     "eslint": "^8.19.0",
     "jest": "^29.6.1",
     "metro-react-native-babel-preset": "0.76.7",
